@@ -76,6 +76,11 @@ endif()
 enable_testing()
 
 # -----------------------------------------------------------------------------
+# Detect Endianess
+
+detect_endianess()
+
+# -----------------------------------------------------------------------------
 # Extra Compile Flags
 
 # Select C++20 as the standard for C++ projects.
